@@ -81,11 +81,14 @@ public class Classe {
             System.out.println(i++ +") "+e.toString());
         }
      }
-    public void afficheListeAbsence(){
+    public void afficheListeAbsence(DayOfWeek day,int numeroSemaine){
+
+
+    }
+    public void afficheHistoriqueAbsence(){
         for(Absence absence:abscences){
             System.out.println(absence.toString());
         }
 
     }
-
 }
