@@ -37,6 +37,7 @@ mora ma derna kamlin clone lhad repo ha chno khass ndiro daba:
 this keeps you updated bles changements ds7abk ms kolchi flbranch dyalk
 ----------------------------------------
 **had l'analogie anktbha bl3rbia ta3rabt bach twda7 lfikra**
+
 تخيل GitHub بحال شي مطبخ مشترك:
 
 كل واحد فيكم كيطيب وجبة ديالو (الميزة أو الكود) فركن ديالو (فرع خاص).
