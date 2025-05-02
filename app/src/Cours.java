@@ -1,4 +1,5 @@
 public class Cours {
+
     private String nom ;
     private String type ;
     private Enseignant enseignant ; 
@@ -29,5 +30,6 @@ public class Cours {
     
     
     
+
 }
  

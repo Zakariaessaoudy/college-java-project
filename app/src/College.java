@@ -1,4 +1,5 @@
 public class College {
+
     private String Nom;
     private String Adresse;
     private Administration admin;
@@ -8,4 +9,5 @@ public class College {
         admin = new Administration(this);
     }
     
+
 }

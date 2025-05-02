@@ -3,6 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class Classe {
+
     private int numeroClasse;
     private int NiveauScolaire;
     private boolean free = false;
@@ -86,4 +87,5 @@ public class Classe {
         }
 
     }
+
 }
