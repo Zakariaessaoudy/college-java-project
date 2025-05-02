@@ -1,7 +1,8 @@
-
-
+import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+
 public class Classe {
 
     private int numeroClasse;
@@ -9,19 +10,18 @@ public class Classe {
     private boolean free = false;
     List<Eleve>eleves;
     List<Seance>seances;
-    List<Absence> absences;
+    List<Absence> abscences;
+    Map<DayOfWeek,List <Integer>> EmploiDuTemps;
 
     public Classe(int numeroClasse, int niveauScolaire) {
         this.numeroClasse = numeroClasse;
         NiveauScolaire = niveauScolaire;
         eleves = new ArrayList<>();
         seances= new ArrayList<>();
-        absences=new ArrayList<>();
+        abscences=new ArrayList<>();
     }
 
-    public void verifierDisponibilite(){
 
-    }
     public void setNumeroClasse(int numeroClasse){
         this.numeroClasse=numeroClasse;
     }
@@ -82,7 +82,7 @@ public class Classe {
         }
      }
     public void afficheListeAbsence(){
-        for(Absence absence:absences){
+        for(Absence absence:abscences){
             System.out.println(absence.toString());
         }
 
