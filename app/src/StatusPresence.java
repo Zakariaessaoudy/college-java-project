@@ -1,6 +1,6 @@
 public enum StatusPresence {
-    PRESENT,
-    ABSENT,
-    EXCUSEE,
+    P,
+    A,
+    E,
 
 }
