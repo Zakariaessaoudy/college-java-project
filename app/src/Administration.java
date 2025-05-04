@@ -12,7 +12,7 @@ public class Administration {
     //List<Seance> lesSeancesActuel;
     List<Seance> historiqueDesSeances;
     Map<Integer,Classe> lesClasses;
-    
+    //methode pour penaliser eleves (envoyer des couriers). do you see me?
     public Administration(College college) {
         this.college = college;
         //lesSeancesActuel = new ArrayList<Seance>();

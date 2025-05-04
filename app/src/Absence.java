@@ -15,6 +15,7 @@ public class Absence {
             this.listeAbscence.put(eleve,new ArrayList<StatusPresence>(8));
         }
     }
+
     //constructeur
     public Absence(DayOfWeek jour, int numeroSemaine, Classe classe) {
         this.jour = jour;
@@ -36,7 +37,7 @@ public class Absence {
             System.out.println("valeur d'ordre invalid, veuillez ressayer:");
             ordre=S.nextInt();
         }
-        initialiserListe();
+        //initialiserListe();
         for (Map.Entry<Eleve,List<StatusPresence>> entry :
              this.listeAbscence.entrySet()) {
             Eleve eleve = entry.getKey();
@@ -61,7 +62,7 @@ public class Absence {
 
     //methode qui simule l'operation de marquage de presence
     public void simulerMarquerAbsence(int ordre){
-        if(ordre>8||ordre<1){
+        if(ordre<=8&&ordre>=1){
             initialiserListe();
             for (Map.Entry<Eleve,List<StatusPresence>> entry :
                     this.listeAbscence.entrySet()) {

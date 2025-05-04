@@ -9,7 +9,7 @@ public class Classe {
     private boolean free = false;
     List<Eleve>eleves;
     List<Seance>seances;
-    List<Absence> absences;
+    List<Absence> HistoriqueListesAbsence;
 
     ///    ZIIDI EMPLOI DU TEMPS !!!!    ///////////////////////////////////////////////////////////
 
@@ -18,7 +18,7 @@ public class Classe {
         NiveauScolaire = niveauScolaire;
         eleves = new ArrayList<>();
         seances= new ArrayList<>();
-        absences=new ArrayList<>();
+        HistoriqueListesAbsence=new ArrayList<>();
     }
 
     public void verifierDisponibilite(){
@@ -84,7 +84,7 @@ public class Classe {
         }
      }
     public void afficheListeAbsence(){
-        for(Absence absence:absences){
+        for(Absence absence:HistoriqueListesAbsence){
             System.out.println(absence.toString());
         }
 
