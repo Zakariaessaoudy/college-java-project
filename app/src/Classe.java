@@ -11,6 +11,8 @@ public class Classe {
     List<Seance>seances;
     List<Absence> absences;
 
+    ///    ZIIDI EMPLOI DU TEMPS !!!!    ///////////////////////////////////////////////////////////
+
     public Classe(int numeroClasse, int niveauScolaire) {
         this.numeroClasse = numeroClasse;
         NiveauScolaire = niveauScolaire;
