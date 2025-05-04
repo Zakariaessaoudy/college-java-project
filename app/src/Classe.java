@@ -10,7 +10,7 @@ public class Classe {
     List<Eleve>eleves;
     List<Seance>seances;
     List<Absence> HistoriqueListesAbsence;
-
+  private int[][] emploiDuTemps= new int [6][8];
     ///    ZIIDI EMPLOI DU TEMPS !!!!    ///////////////////////////////////////////////////////////
 
     public Classe(int numeroClasse, int niveauScolaire) {
