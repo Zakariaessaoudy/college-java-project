@@ -33,6 +33,12 @@ public class Seance {
         }
         else listeElevesAbsents.add(e);
     }
+    public void supprimerEleveAbsent(Eleve e){
+        if(!listeElevesAbsents.contains(e)){
+            System.out.println(" l eleve ne se trouve pas dans la liste  ");
+        }
+        else listeElevesAbsents.remove(e);
+    }
     public String getNom_jour() {
         return nom_jour;
     }

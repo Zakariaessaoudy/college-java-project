@@ -11,7 +11,7 @@ public class Classe {
     List<Seance>seances;
     List<Absence> HistoriqueListesAbsence;
   private int[][] emploiDuTemps= new int [6][8];
- 
+
 
     public Classe(int numeroClasse, int niveauScolaire) {
         this.numeroClasse = numeroClasse;
@@ -21,9 +21,7 @@ public class Classe {
         HistoriqueListesAbsence=new ArrayList<>();
     }
 
-    public void verifierDisponibilite(){
 
-    }
     public void setNumeroClasse(int numeroClasse){
         this.numeroClasse=numeroClasse;
     }
