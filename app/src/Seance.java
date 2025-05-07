@@ -14,7 +14,7 @@ public class Seance {
     private String nomCours;
     private Administration administration;
 
-
+    private List<Eleve> listeElevesAbsents;
     public Seance(String nom_jour, int numero_Semaine, Time debut, Time fin, Classe classe, int numeroSalle, String nomCours, Administration administration, Date date) {
         this.nom_jour = nom_jour;
         this.numero_Semaine = numero_Semaine;
@@ -25,9 +25,14 @@ public class Seance {
         this.nomCours = nomCours;
         this.administration = administration;
         this.date=date;
-
+        listeElevesAbsents=new ArrayList<>();
     }
-
+    public void ajouterEleveAbsent(Eleve e){
+        if(listeElevesAbsents.contains(e)){
+            System.out.println(" l eleve est deja marqué dans la liste ");
+        }
+        else listeElevesAbsents.add(e);
+    }
     public String getNom_jour() {
         return nom_jour;
     }
